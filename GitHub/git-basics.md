@@ -1,3 +1,5 @@
+## Basic Git and GitHub Instructions (to begin with)
+
 ### 1. Make sure git is tracking your project locally
 
 Do you need a refresher on git? [Go through Codecademy's `git` course.](https://www.codecademy.com/courses/learn-git)
@@ -19,8 +21,6 @@ Do you need a refresher on git? [Go through Codecademy's `git` course.](https://
       * Is it saying that you're already in a folder or sub-folder where git is initialized?  
       * **Google the error output to understand it, and to figure out how to fix it.**
 
-<hr>
-
 ### 2. Create a remote, empty folder/repository on Github.
 
 1. Login to your Github account. 
@@ -30,8 +30,6 @@ Do you need a refresher on git? [Go through Codecademy's `git` course.](https://
 3. Give your repository a name--ideally the same name as your local project. If I'm building a travel application, its folder will be called 'travel-app' on my computer, and 'travel-app' will be the Github repository name as well.
 
 4. Click 'Create Repository'. The next screen you see will be important, so don't close it.
-
-<hr>
 
 ### 3. Connect your local project folder to your empty folder/repository on Github.
 
