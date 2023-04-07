@@ -1,5 +1,5 @@
 ### How to set up a TensorFlow environment on Apple Silicon using Miniforge (Apr, 2023)
-If you're experienced with making environments and using the command line, follow this version. If not, please visit [this](link) and continue after creating an environment.
+If you're experienced with making environments and using the command line, follow this version. If not, please visit [this](https://github.com/sangay-cortez/GK-Markdowns/blob/main/Setup%20a%20TensorFlow%20environment%20on%20Apple%20Silicon%20using%20Miniforge/How%20to%20set%20up%20a%20TensorFlow%20environment%20on%20Apple%20Silicon%20using%20Miniforge%20-%20Extended%20(Apr%2C%202023).md) and continue after creating an environment.
 
 1. Download and install Homebrew from https://brew.sh. Follow the steps it prompts you to go through after installation.
 2. Download [Miniforge3](https://github.com/conda-forge/miniforge) for macOS arm64 chips (M1, M1 Pro, M1 Max, M1 Ultra, M2).
@@ -14,7 +14,7 @@ If you're experienced with making environments and using the command line, follo
     ```
 4. Restart terminal.
 
-5. [Create a directory to set up TensorFlow environment]().
+5. [Create a directory to set up TensorFlow environment](https://github.com/sangay-cortez/GK-Markdowns/blob/main/Setup%20a%20TensorFlow%20environment%20on%20Apple%20Silicon%20using%20Miniforge/How%20to%20set%20up%20a%20TensorFlow%20environment%20on%20Apple%20Silicon%20using%20Miniforge%20-%20Extended%20(Apr%2C%202023).md).
     ```sh
     mkdir tensorflow-test && cd tensorflow-test
     ```
@@ -22,11 +22,10 @@ If you're experienced with making environments and using the command line, follo
     ```sh
     conda create --prefix ./env python=3.10 && conda activate ./env
     ```
-After activating the environment;
-7. Install TensorFlow dependencies from Apple Conda channel.
-    ```sh
-    conda install -c apple tensorflow-deps
-    ```
+7. After activating the environment, install TensorFlow dependencies from Apple Conda channel.
+   ```sh
+   conda install -c apple tensorflow-deps
+   ```
 8. Install base TensorFlow (Apple's fork of TensorFlow is called tensorflow-macos).
     ```sh
     python -m pip install tensorflow-macos
