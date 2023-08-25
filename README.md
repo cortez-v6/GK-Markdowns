@@ -2,8 +2,6 @@
 
  - 1. Basic Git and GitHub instructions
 
- - 2. Basic Angular concepts
+ - 2. Setup a TensorFlow environment on Apple Silicon using Miniforge
 
- - 3. Basic React concepts
- 
- - 4. ...
+ - 3. ...
